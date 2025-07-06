@@ -12,47 +12,53 @@
     <main class="container">
         <header>
             <h1>Luniv Strings Documentation</h1>
-            <p>A minimalist utility library for validating string and numeric data.</p>
+            <p>Sting manipulation done right.</p>
             <h3>Download Minified Version</h3>
-            <a href="https://raw.githubusercontent.com/Sieep-Coding/luniv-strings/main/release/main.min.js" download>Download main.min.js</a>
+            <a href="https://raw.githubusercontent.com/Sieep-Coding/luniv-strings/main/release/main.min.js" download
+                class="button">
+                Download main.min.js
+            </a>
             <h3>Available Functions</h3>
             <ul>
                 <li><a href="#isNumeric">isNumeric(value)</a></li>
                 <li><a href="#isString">isString(value)</a></li>
             </ul>
             <p><strong>Note:</strong> I am a sole maintainer of this library</p>
-
-        <section class="function-doc">
-            <h2><code>isNumeric(value)</code></h2>
-            <p><strong>Description:</strong> Checks if the provided argument is a numeric value.</p>
-            <p><strong>Parameters:</strong></p>
-            <ul>
-                <li><code>value: any</code> — The value to check.</li>
-            </ul>
-            <p><strong>Returns:</strong> <code>boolean</code> — Returns <code>true</code> if the value is numeric,
-                otherwise <code>false</code>.</p>
-            <p><strong>Example:</strong></p>
-            <pre><code>isNumeric(42);      // true
+            
+            <section class="function-doc" id="isNumeric">
+                <h2><code>isNumeric(value)</code></h2>
+                <p><strong>Description:</strong> Checks if the provided argument is a numeric value.</p>
+                <p><strong>Parameters:</strong></p>
+                <ul>
+                    <li><code>value: any</code> — The value to check.</li>
+                </ul>
+                <p><strong>Returns:</strong> <code>boolean</code> — Returns <code>true</code> if the value is numeric,
+                    otherwise <code>false</code>.</p>
+                <p><strong>Example:</strong></p>
+                <pre><code>isNumeric(42);      // true
 isNumeric("42");    // true
 isNumeric("hello"); // false</code></pre>
-        </section>
+            </section>
 
-        <section class="function-doc">
-            <h2><code>isString(value)</code></h2>
-            <p><strong>Description:</strong> Checks if the provided value is a string.</p>
-            <p><strong>Parameters:</strong></p>
-            <ul>
-                <li><code>value: any</code> — The value to check.</li>
-            </ul>
-            <p><strong>Returns:</strong>
-                <code>boolean</code> — Returns <code>true</code> if the value is a string (primitive or String object),
-                otherwise <code>false</code>.
-            </p><p><strong>Example:</strong></p><pre><code>isString("hello");           // true
+            <section class="function-doc" id-="isString">
+                <h2><code>isString(value)</code></h2>
+                <p><strong>Description:</strong> Checks if the provided value is a string.</p>
+                <p><strong>Parameters:</strong></p>
+                <ul>
+                    <li><code>value: any</code> — The value to check.</li>
+                </ul>
+                <p><strong>Returns:</strong>
+                    <code>boolean</code> — Returns <code>true</code> if the value is a string (primitive or String
+                    object),
+                    otherwise <code>false</code>.
+                </p>
+                <p><strong>Example:</strong></p>
+                <pre><code>isString("hello");           // true
 isString(new String("hi"));  // true
 isString(123);               // false
 </code>
 </pre>
-        </section>
+            </section>
     </main>
 </body>
 
