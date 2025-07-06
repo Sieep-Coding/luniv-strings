@@ -4,6 +4,10 @@ Luniv Strings is a string manipulation library for JavaScript.
 
 It was created primarily as a tool to help me at my day job and when completing Game Jam's using the [Phaseer](https://phaser.io/) game engine.
 
+# How to Use
+
+For now, you can use the [minified version.](https://github.com/Sieep-Coding/luniv-strings/releases/tag/release)
+
 # Inspiration
 The inspiration is primarily from [plexis](https://github.com/plexis-js/plexis/). 
 
