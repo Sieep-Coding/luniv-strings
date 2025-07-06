@@ -1,0 +1,10 @@
+.nyc_output
+*.log
+.prettierrc
+.circleci
+*.lock
+dist
+node_modules
+node_modules/
+coverage
+package-lock.json

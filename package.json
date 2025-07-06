@@ -1,0 +1,14 @@
+{
+  "name": "@luniv-strings/is-string",
+  "version": "0.0.1",
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "babel-jest": "^30.0.4",
+    "jest": "^30.0.4"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "type": "module"
+}

@@ -1,0 +1,26 @@
+{
+    "name": "@luniv-strings/is-string",
+    "version": "0.0.1",
+    "main": "dist/index.js",
+    "module": "dist/index.esm.js",
+    "jsnext:main": "./src/index.js",
+    "files": [
+        "dist",
+        "src"
+    ],
+    "type": "module",
+    "license": "MIT",
+    "keywords": [
+        "utility",
+        "string",
+        "parse",
+        "format",
+        "validate"
+    ],
+    "repository": {
+        "type": "git"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
