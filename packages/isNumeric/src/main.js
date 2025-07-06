@@ -9,6 +9,11 @@
  */
 
 export default function isNumeric(value) {
+  
+  if (value === null || value === undefined) {
+    return false;
+  }
+
   if (typeof value === 'number') {
     return isFinite(value);
   }
