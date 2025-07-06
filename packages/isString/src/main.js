@@ -1,7 +1,7 @@
 /**
  * @description Checks if the provided value is a string.
- * @param {any} value - The value to check.
- * @returns {boolean} - Returns true if the value is a string (primitive or String object), otherwise false.
+ * @param {any} value The value to check.
+ * @returns {boolean} true if the value is a string (primitive or String object), otherwise false.
  * @example
  * // Basic usage
  * isString("hello");           // true

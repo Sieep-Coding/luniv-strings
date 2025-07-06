@@ -1,7 +1,7 @@
 /**
  * @description Checks if the provided arguement is a numeric value.
- * @param {any} value - The value to check.
- * @returns {boolean} - Returns true if the value is numeric, otherwise false.
+ * @param {any} value value to check.
+ * @returns {boolean} true if the value is numeric, otherwise false.
  * @example
  * // Basic usage
  * isNumeric(42); // true
